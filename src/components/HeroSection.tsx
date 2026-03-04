@@ -44,7 +44,7 @@ const HeroSection = () => {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="font-body text-sm md:text-base text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          Curated collections from Pakistan's finest designers — Maria B., Malabar & more.
+          Curated collections from Pakistan's finest designers — Maria B., Sana Safinaz, Khadija, Malaabis & more.
           Every piece is pure, authentic, and original.
         </motion.p>
 
