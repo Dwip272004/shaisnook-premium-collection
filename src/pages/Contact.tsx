@@ -43,6 +43,9 @@ const Contact = () => {
             >
               <div>
                 <h3 className="font-display text-2xl text-cream mb-6">Reach Us</h3>
+                <p className="font-body text-sm text-muted-foreground leading-relaxed mb-2">
+                  <span className="text-foreground font-medium">Shaista Titi</span>
+                </p>
                 <p className="font-body text-sm text-muted-foreground leading-relaxed mb-8">
                   Whether you're looking for a specific designer piece or need styling advice,
                   our team is here to help you find the perfect outfit.
@@ -51,9 +54,8 @@ const Contact = () => {
 
               <div className="space-y-6">
                 {[
-                  { icon: Phone, label: "Phone", value: "+92 300 1234567" },
-                  { icon: Mail, label: "Email", value: "hello@shaisnook.com" },
-                  { icon: MapPin, label: "Location", value: "Lahore, Pakistan" },
+                  { icon: Phone, label: "WhatsApp / Cell", value: "615-915-9901" },
+                  { icon: MapPin, label: "Address", value: "1402 Knox Valley Drive, Brentwood, TN 37027" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-start gap-4">
                     <item.icon className="w-5 h-5 text-primary mt-0.5" strokeWidth={1.5} />
