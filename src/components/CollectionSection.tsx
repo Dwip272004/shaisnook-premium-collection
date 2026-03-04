@@ -7,27 +7,23 @@ import dress4 from "@/assets/dress-4.jpg";
 const dresses = [
   {
     image: dress1,
-    name: "Emerald Majesty",
-    designer: "Maria B.",
+    name: "Fuchsia Embroidered Kurta",
     category: "Luxury Lawn",
   },
   {
     image: dress2,
-    name: "Burgundy Reign",
-    designer: "Sana Safinaz",
+    name: "Noir Floral Suite",
     category: "Formal Collection",
   },
   {
     image: dress3,
-    name: "Ivory Blossom",
-    designer: "Khadija",
+    name: "Olive Embroidered Kurta",
     category: "Chiffon Suite",
   },
   {
     image: dress4,
-    name: "Royal Midnight",
-    designer: "Malaabis",
-    category: "Wedding Formals",
+    name: "Rust Co-ord Set",
+    category: "Ready to Wear",
   },
 ];
 
@@ -65,7 +61,7 @@ const CollectionSection = () => {
               <div className="relative overflow-hidden mb-4 aspect-[3/4] bg-charcoal">
                 <img
                   src={dress.image}
-                  alt={`${dress.name} by ${dress.designer}`}
+                  alt={dress.name}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -83,7 +79,7 @@ const CollectionSection = () => {
                 {dress.name}
               </h3>
               <p className="font-body text-xs tracking-[0.15em] text-muted-foreground mt-1">
-                by {dress.designer}
+                {dress.category}
               </p>
             </motion.div>
           ))}
