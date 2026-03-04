@@ -14,19 +14,19 @@ const dresses = [
   {
     image: dress2,
     name: "Burgundy Reign",
-    designer: "Maria B.",
+    designer: "Sana Safinaz",
     category: "Formal Collection",
   },
   {
     image: dress3,
     name: "Ivory Blossom",
-    designer: "Malabar",
+    designer: "Khadija",
     category: "Chiffon Suite",
   },
   {
     image: dress4,
     name: "Royal Midnight",
-    designer: "Maria B.",
+    designer: "Malaabis",
     category: "Wedding Formals",
   },
 ];

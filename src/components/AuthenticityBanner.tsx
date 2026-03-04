@@ -3,7 +3,7 @@ import { ShieldCheck, Award, Gem } from "lucide-react";
 
 const features = [
   { icon: ShieldCheck, title: "100% Original", desc: "Every piece verified authentic" },
-  { icon: Award, title: "Top Designers", desc: "Maria B., Malabar & more" },
+  { icon: Award, title: "Top Designers", desc: "Maria B., Sana Safinaz, Khadija, Malaabis & more" },
   { icon: Gem, title: "Premium Quality", desc: "Pure fabrics, flawless craft" },
 ];
 
